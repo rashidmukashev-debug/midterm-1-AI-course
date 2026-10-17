@@ -1,7 +1,7 @@
 # Midterm 1: answers
 
 GitHub username: rashidmukashev-debug
-Session code:MAPLE-66
+Session code:maple-66
 Fingerprint:21df940e
 
 > Fill in the three lines above from `my_data/DATA.md`. Do not rename headings or table columns: a script reads the numbers.
