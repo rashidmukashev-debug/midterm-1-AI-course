@@ -77,7 +77,8 @@ Why: The annual cost depends on the retrieval configuration and the number of do
 
 Number:
 Why (at most 40 words):
-
+Number: Recall@3 = 0.7333 and Recall@5 = 0.8500 for configuration A.
+Why: Increasing k from 3 to 5 improves recall because the system considers more retrieved results. However, retrieving more documents can increase processing costs.
 ### Q3
 
 Number:
