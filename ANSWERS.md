@@ -83,17 +83,12 @@ Why: Increasing k from 3 to 5 improves recall because the system considers more 
 
 Number:
 Why (at most 40 words):
-
+Number: Recall for Kazakh (KK) = 0.65.
+Why: Kazakh has the weakest retrieval performance among the three languages. This suggests that the system may need better Kazakh-language data and additional evaluation.
 ### Q4
 
 Number:
 Why (at most 40 words):
-
-
-
-
-
-
 
 
 ### Q5
