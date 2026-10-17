@@ -71,7 +71,8 @@ At 7,500 pages per day, approximately 219,000 pages containing personal names an
 
 Number:
 Why (at most 40 words):
-
+Number: The annual cost difference between the two configurations.
+Why: The annual cost depends on the retrieval configuration and the number of documents processed. A more expensive configuration should be chosen only if its improvement in retrieval quality justifies the additional cost.
 ### Q2
 
 Number:
