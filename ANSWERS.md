@@ -1,15 +1,25 @@
 # Midterm 1: answers
 
-GitHub username:
-Session code:
-Fingerprint:
+GitHub username: rashidmukashev-debug
+Session code:MAPLE-66
+Fingerprint:21df940e
 
 > Fill in the three lines above from `my_data/DATA.md`. Do not rename headings or table columns: a script reads the numbers.
 > Write only in the empty cells and lines. Percentages as 0.78 or 78 %, money as plain numbers.
 
 ## AI-use declaration
 
-(About half a page: which assistants or tools you used and for what. If you used none, say so.)
+# Midterm 1: answers
+
+GitHub username: `rashidmukashev-debug`  
+Session code: `maple-66`  
+Fingerprint: `21df940e`
+
+## AI-use declaration
+
+I used ChatGPT to help me understand the exam instructions, explain the formulas, and check my calculations. I used Google Colab to run the provided data generator and obtain my synthetic dataset. I reviewed the results and used AI explanations to improve my understanding of retrieval metrics, confidence intervals, token costs, and document-processing risks. I am responsible for verifying my final answers and explaining my reasoning during the oral check.
+
+## Part 1: Retrieval and cost decision
 
 ## Part 1: Retrieval and cost decision
 
