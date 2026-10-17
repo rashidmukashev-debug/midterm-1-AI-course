@@ -53,12 +53,17 @@ Evaluate both configurations on a larger, independently sampled test set, especi
 
 | pipeline | overall accuracy | weakest cell (language, condition) | accuracy there | lower | upper | annual cost |
 |---|---|---|---|---|---|---|
-| H | | | | | | |
-| L | | | | | | |
+| H | 0.8833 | KK, degraded | 0.7333 | 0.5555 | 0.8582 | 36299.25 |
+| L | 0.8222 | KK, degraded | 0.6000 | 0.4232 | 0.7541 | 10800 |
 
-Personal-data pages per year sent abroad under H:
+Personal-data pages per year sent abroad under H: 219000
 
 ### 2b. Memo (at most 300 words)
+I recommend pipeline L as the default because it processes documents within Kazakhstan, costs only 10,800 USD per year, and avoids sending personal data abroad. Pipeline H has higher overall accuracy (88.33% versus 82.22%), but its estimated annual cost is 36,299.25 USD, exceeding the 34,400 USD budget by 1,899.25 USD.
+
+The weakest condition for both pipelines is degraded Kazakh-language scans. H achieves 73.33% accuracy in this group, while L achieves 60%. These results show that scan quality and language affect reliability, so the system should flag uncertain extractions for human review rather than silently accepting them.
+
+At 7,500 pages per day, approximately 219,000 pages containing personal names and ИИН would be sent abroad annually under H. This creates a significant data-protection concern. Before deploying either pipeline, I would test it on a larger, representative dataset, monitor accuracy separately by language and scan quality, and manually verify high-risk fields such as ИИН and invoice totals. L is the more practical default under the current budget and privacy constraints. H could be reconsidered if its accuracy advantage proves necessary and appropriate safeguards and funding are available.
 
 ## Part 3: Explain your own numbers
 
