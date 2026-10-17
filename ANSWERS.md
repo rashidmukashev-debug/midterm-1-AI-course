@@ -68,30 +68,24 @@ At 7,500 pages per day, approximately 219,000 pages containing personal names an
 ## Part 3: Explain your own numbers
 
 ### Q1
-
-Number:
-Why (at most 40 words):
 Number: The annual cost difference between the two configurations.
 Why: The annual cost depends on the retrieval configuration and the number of documents processed. A more expensive configuration should be chosen only if its improvement in retrieval quality justifies the additional cost.
-### Q2
 
-Number:
-Why (at most 40 words):
+### Q2
 Number: Recall@3 = 0.7333 and Recall@5 = 0.8500 for configuration A.
 Why: Increasing k from 3 to 5 improves recall because the system considers more retrieved results. However, retrieving more documents can increase processing costs.
-### Q3
 
-Number:
-Why (at most 40 words):
+### Q3
 Number: Recall for Kazakh (KK) = 0.65.
 Why: Kazakh has the weakest retrieval performance among the three languages. This suggests that the system may need better Kazakh-language data and additional evaluation.
-### Q4
 
-Number:
-Why (at most 40 words):
+### Q4
+Number: Pipeline L accuracy on degraded Kazakh scans = 0.6000.
+Why: Poor scan quality can make text harder to recognize, especially in Kazakh. Low-confidence fields should be flagged for human review instead of being accepted automatically.
 
 
 ### Q5
-
+Number: 15.90
+Why: By this criterion, the model is over-trained relative to Chinchilla's compute-optimal ratio. Chinchilla showed that models such as GPT-3 were under-trained: they used too many parameters relative to their training data and could perform better with more tokens and fewer parameters at the same compute budget.
 Number:
 Why (at most 40 words):
